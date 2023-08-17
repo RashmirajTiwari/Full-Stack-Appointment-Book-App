@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Booking Appointment App
+    </title>
+    <link rel="stylesheet" href="public/style.css">
+</head>
+
+<body>
+
+	<h2><center> Booking Appointment App</center></h2>
+
+<hr>
+<div class="item-form">
+    <form id="myForm" >
+        <div>
+            <label for="name">Name</label>
+            <input type="text"  name="name" id="name" >
+        
+        </div>
+       
+        <div>
+            <label for="email">Email</label>
+            <input type="text"  name="email" id="email" >
+        </div>
+        <div>
+            <label for="password">Phone No.</label>
+            <input type="text"  name="phone" id="phone" >
+        </div>
+        <div  class="form-action-buttons">
+            <button type="button" class="btn btn-primary" id="submitBtn">Add</button>
+        </div>
+    </form>
+</div>
+<br/>
+<div class = "item-table">
+    
+            <ul id="items"></ul>
+        
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+<script src="public/script.js"></script>
+</body>
+</html>
